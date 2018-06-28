@@ -1,0 +1,22 @@
+<!--index.wxml-->
+<view class="container">
+  <image class='banner-img' src='/images/index/indexBanner.png'></image>
+  <view class='banner-lists'>
+    <view class='banner-list'>
+      <image class='banner-list-icon' src='/images/icon/marryPlan.png'></image>
+      <text class='banner-list-text'>婚礼方案</text>
+    </view>
+    <view class='banner-list'>
+      <image class='banner-list-icon' src='/images/icon/marryCreat.png'></image>
+      <text class='banner-list-text'>婚礼创意</text>
+    </view>
+    <view class='banner-list'>
+      <image class='banner-list-icon' src='/images/icon/marryNormal.png'></image>
+      <text class='banner-list-text'>婚俗常识</text>
+    </view>
+  </view>
+  <view class='banner-content'>
+    <image src='/images/index/index01.png'></image>
+    <image src='/images/index/index02.png'></image>
+  </view>
+</view>

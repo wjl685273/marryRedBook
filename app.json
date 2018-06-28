@@ -1,0 +1,31 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/red-book/red-book",
+    "pages/user-center/user-center"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath": "images/icon/index.png",
+      "selectedIconPath": "images/icon/indexSelect.png"
+    },{
+      "pagePath": "pages/red-book/red-book",
+      "text": "红皮书",
+      "iconPath": "images/icon/redBook.png",
+      "selectedIconPath": "images/icon/redBook.png"
+    },{
+      "pagePath": "pages/user-center/user-center",
+      "text": "我",
+      "iconPath": "images/icon/personCenter.png",
+      "selectedIconPath": "images/icon/personCenter.png"
+    }]
+  }
+}

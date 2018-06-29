@@ -1,0 +1,2 @@
+/* pages/mar-creation/mar-creation.wxss */
+@import "../template/creation-items-template/creation-items-template.wxss";

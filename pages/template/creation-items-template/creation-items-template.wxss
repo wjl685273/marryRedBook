@@ -1,0 +1,36 @@
+.creation-items-container{
+  margin: 0 auto;
+  width: 660rpx;
+  height: 178rpx;
+  padding:0 20rpx;
+  border: 1rpx #f85162 solid;
+  border-radius: 10rpx;
+  margin-top: 20rpx;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.items-image{
+  width: 135rpx;
+  height: 135rpx;
+}
+.items-text{
+  display: flex;
+  flex-direction: column;
+}
+.text-title{
+  font-size: 36rpx;
+  color: #333;
+}
+.text-content{
+  font-size:24rpx;
+  color: #333;
+  width: 435rpx;
+  height:70rpx;
+  word-break: break-all;
+  margin-top: 20rpx;
+  letter-spacing: 1rpx;
+  white-space: pre-wrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}

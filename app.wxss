@@ -1,1 +1,7 @@
 /**app.wxss**/
+.Gradual_change{
+  background: linear-gradient(30deg, #ec058a 0%, #f5576c 70%);
+}
+button::after {
+  border: none;
+}

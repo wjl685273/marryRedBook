@@ -1,2 +1,39 @@
-<!--pages/user-center/user-center.wxml-->
-<text>pages/user-center/user-center.wxml</text>
+<view class='per-container'>
+  <view class='haeder Gradual_change'>
+    <button wx:if="{{!hasUserInfo && canIUse}}" class='Jurisdiction_but' open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
+     <block wx:elif="{{userInfo!='undefined'}}">
+      <view class='haeder_logo'>
+        <image class='haeder_logo_bg' src='/images/user/user_logo_bg.png'></image>
+        <image class='haeder_logo_img' mode='aspectFill' src='{{userInfo.avatarUrl}}'></image>
+      </view>
+      <text class='haeder_name'>昵称：{{userInfo.nickName}}</text>
+    </block> 
+    <image class='haeder_bg' src='/images/user/user_header_bg.png'></image>
+  </view>
+  <view class='per-main'>
+    <view class='per-main-item'>
+      <image src='/images/user/focus.png'></image>
+      <text>我的关注</text>
+    </view>
+    <view class='per-main-item'>
+      <image src='/images/user/havebuy.png'></image>
+      <text>已购服务</text>
+    </view>
+    <view class='per-main-item'>
+      <image src='/images/user/focus.png'></image>
+      <text>购物车</text>
+    </view>
+    <view class='per-main-item'>
+      <image src='/images/user/date.png'></image>
+      <text>婚备日程</text>
+    </view>
+    <view class='per-main-item'>
+      <image src='/images/user/service.png'></image>
+      <text>管家服务</text>
+    </view>
+    <view class='per-main-item'>
+      <image src='/images/user/phone.png'></image>
+      <text>客服</text>
+    </view>
+  </view>
+</view>

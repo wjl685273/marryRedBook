@@ -1,0 +1,9 @@
+<import src="../template/creation-items-template/creation-items-template.wxml" />
+<view>
+  <view>
+    <template is="creationItemsTemplate" />
+  </view>
+  <view>
+    <template is="creationItemsTemplate" />
+  </view>
+</view>

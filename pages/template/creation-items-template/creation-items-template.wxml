@@ -1,0 +1,9 @@
+<template name="creationItemsTemplate">
+    <view class='creation-items-container'>
+      <image class='items-image' src='/images/index/index01.png' mode='center'></image>
+      <view class='items-text'>
+        <text class='text-title'>标题名称最长20个字</text>
+        <view class='text-content'>你帧数奋达科技分开打飞机即可大幅度</view>
+      </view>
+    </view>
+</template>

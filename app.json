@@ -2,13 +2,16 @@
   "pages":[
     "pages/index/index",
     "pages/red-book/red-book",
-    "pages/user-center/user-center"
+    "pages/user-center/user-center",
+    "pages/mar-creation/mar-creation",
+    "pages/mar-normal/mar-normal",
+    "pages/mar-creation/creation-detail/creation-detail"
   ],
   "window":{
     "backgroundTextStyle":"light",
-    "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
-    "navigationBarTextStyle":"black"
+    "navigationBarBackgroundColor": "#f85162",
+    "navigationBarTitleText": "婚礼红皮书",
+    "navigationBarTextStyle":"white"
   },
   "tabBar": {
     "list": [{
@@ -20,12 +23,12 @@
       "pagePath": "pages/red-book/red-book",
       "text": "红皮书",
       "iconPath": "images/icon/redBook.png",
-      "selectedIconPath": "images/icon/redBook.png"
+      "selectedIconPath": "images/icon/redBookSelect.png"
     },{
       "pagePath": "pages/user-center/user-center",
       "text": "我",
       "iconPath": "images/icon/personCenter.png",
-      "selectedIconPath": "images/icon/personCenter.png"
+      "selectedIconPath": "images/icon/personCenterSelect.png"
     }]
   }
 }

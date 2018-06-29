@@ -1,1 +1,18 @@
 /* pages/red-book/red-book.wxss */
+.redBook-container{
+  height: 100%;
+  position: relative;
+}
+.redBook-image{
+  height: 1070rpx;
+  width: 100%;
+}
+ .redBook-button{
+  position: absolute;
+  top: 856rpx;
+  left:214rpx;
+  width: 277rpx;
+  height: 89rpx;
+  font-size: 38rpx;
+  color: #fff;
+} 

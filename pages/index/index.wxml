@@ -6,11 +6,11 @@
       <image class='banner-list-icon' src='/images/icon/marryPlan.png'></image>
       <text class='banner-list-text'>婚礼方案</text>
     </view>
-    <view class='banner-list'>
+    <view class='banner-list' catchtap='onMarCreate'>
       <image class='banner-list-icon' src='/images/icon/marryCreat.png'></image>
       <text class='banner-list-text'>婚礼创意</text>
     </view>
-    <view class='banner-list'>
+    <view class='banner-list' catchtap='onMarNormal'>
       <image class='banner-list-icon' src='/images/icon/marryNormal.png'></image>
       <text class='banner-list-text'>婚俗常识</text>
     </view>

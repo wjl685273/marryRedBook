@@ -1,0 +1,6 @@
+<import src="../template/creation-items-template/creation-items-template.wxml" />
+<view>
+  <view catchtap='onMoreCreation'>
+    <template is="creationItemsTemplate" />
+  </view>
+</view>

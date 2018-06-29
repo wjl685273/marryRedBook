@@ -1,2 +1,5 @@
 <!--pages/red-book/red-book.wxml-->
-<text>pages/red-book/red-book.wxml</text>
+<view class='redBook-container'>
+  <image class='redBook-image' src='/images/redbook/redindex.png'></image>
+  <button class='Gradual_change redBook-button'>打开红皮书</button> 
+</view>
